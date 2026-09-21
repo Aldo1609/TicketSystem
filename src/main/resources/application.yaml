@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: TicketSystem
+  datasource:
+    url: jdbc:postgresql://localhost:5432/develop
+    username: aldo
+    password: admin
+
+server:
+  port: 8080
+  servlet:
+    context-path: /ticketsystem
+  error:
+    include-stacktrace: never
